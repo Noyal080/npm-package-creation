@@ -6,7 +6,8 @@
     2) cd add-package
     3) npm init -y
     4) npm install react react-dom --save-dev
-    5) In package.json you see a devDependencies now copy the react and react dom and create an object peerDependencies and paste it.
+    5) In package.json you see a devDependencies now copy the react and react dom and create an object 
+        peerDependencies and paste it.
           ```
           "peerDependencies": {
             "react": "^18.2.0",

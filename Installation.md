@@ -33,7 +33,8 @@ This component renders the map using `react-leaflet` and shows the markers, poly
 	const loader = <Loader active /> //For Semantic UI loader
 	return(
 	<div>
-	<ViewMap data={dummyData} 
+	<ViewMap 
+ 	data={dummyData} 
 	mapConfig ={
 	showElevation: true,
 	url : url,
@@ -41,6 +42,8 @@ This component renders the map using `react-leaflet` and shows the markers, poly
 	markerIcon : markerIcon,
 	polylineColor : red
 	loader : loader
+	zoom : "5"
+	mapPosition : [],
 	}
 	 />
 	</div>
@@ -66,6 +69,8 @@ This component renders the map using `react-leaflet` and asks the users to drop 
 	markerIcon : markerIcon,
 	polylineColor : red
 	loader : loader
+ 	zoom : "5"
+	mapPosition : [],
 	} >
 		<Form {formData , setFormData } />
 		<ElevationInfo />

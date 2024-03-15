@@ -24,11 +24,11 @@ This component renders the map using `react-leaflet` and shows the markers, poly
 	const dummyData = {
 		origin :"Kathmandu",
 		destination:"Pokhara",
-		originElevation: "2234m",
-		destinationElevation: "1658m",
-		originLatLng:[,],
-		destinationLatLng: [,],
-		encodedPolyline:""
+		origin_elevation: "2234m",
+		destination_elevation: "1658m",
+		origin_coordinates:[,],
+		destination_coordinates: [,],
+		encoded_polyline:""
 		}
 	const loader = <Loader active /> //For Semantic UI loader
 	return(

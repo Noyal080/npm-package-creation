@@ -72,3 +72,14 @@
     12) In terminal press command npm run build
     13) Then npm login and use your npmjs.com login credentials
     14) Use command npm publish to publish your package
+#### While using css for styling in the package add the below code in `webpack.config.js`
+     {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+#### For updating the code :
+     15) npm run build
+     16) npm version patch // This add a patch to your build version 
+         OR you can specify version 
+         npm version 1.2.0
+    17 ) npm publish

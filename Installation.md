@@ -99,7 +99,11 @@ This component uses the `c3.js` library to generate and display an elevation cha
 	} ,
 	...
 	]
-	const loader = <Loader active /> //For Semantic UI loader
+ 	const chartStyle = {
+	height: "100px",
+ 	width :"100px
+  	}
+  	const loader = <Loader active /> //For Semantic UI loader
 	return(
 	<div>
 	<ElevationChart 
@@ -107,6 +111,7 @@ This component uses the `c3.js` library to generate and display an elevation cha
 	data={chartData} 
 	backgroundImage={bg}
 	chartColor= {"red"}
+	chartStyle = {chartStyle}
 	loader={loader}/>
 	</div>
 	);

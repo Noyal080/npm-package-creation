@@ -108,7 +108,7 @@ This component uses the `c3.js` library to generate and display an elevation cha
 	<div>
 	<ElevationChart 
 	title={title}
-	data={chartData} 
+	chartData={chartData} 
 	backgroundImage={bg}
 	chartColor= {"red"}
 	chartStyle = {chartStyle}

@@ -36,14 +36,14 @@ This component renders the map using `react-leaflet` and shows the markers, poly
 	<ViewMap 
  	data={dummyData} 
 	mapConfig ={
-	showElevation: true,
-	url : url,
+	showElevation: true,  //default value is false
+	url : url, 
 	attribution: attribution,
 	markerIcon : markerIcon,
-	polylineColor : red
-	loader : loader
+	polylineColor : red   //default value is green
+	loader : loader  
 	zoom : "5"
-	mapPosition : [],
+	mapPosition : [27,87],
 	}
 	 />
 	</div>

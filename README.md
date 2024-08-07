@@ -29,8 +29,7 @@
         export {default as Module2} from "./module2.js"  
     ``` 
     8) Now you want to install webpack webpack cli and babel
-               npm install @babel/core @babel/preset-env @babel/preset-react
-               babel-loader webpack webpack-cli --save-dev
+               npm install @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli --save-dev
     9) In your folder root structure create .babelrc: 
        ``` 
        {  "presets": ["@babel/preset-env", "@babel/preset-react"]
